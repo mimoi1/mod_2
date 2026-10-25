@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "mod_1",
+  "version": "${version}",
+  "name": "mod_1",
+  "description": "",
+  "authors": [],
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.mod1.Mod1Client"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": ">=26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
